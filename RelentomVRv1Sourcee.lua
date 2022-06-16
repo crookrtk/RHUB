@@ -48,7 +48,7 @@ _G.headscale = 2 -- I wouldn't change this, up to you.
 _G.MoveCamButton = Enum.KeyCode.ButtonR1 -- The button for moving.
 _G.WeaponButton = Enum.KeyCode.ButtonB -- The button used to bring out the weapon.
 
-_G.Fling = true -- Set to true if you want to fling.
+_G.Fling = false -- Set to true if you want to fling.
 ---------------
 
 --------- Leave:
