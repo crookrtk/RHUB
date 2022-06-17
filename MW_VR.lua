@@ -1,3 +1,7 @@
+-- Da Hood Anti-Cheat
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Da%20Hood/AntiCheatBypass.lua"))()
+wait(1)
+---
 local handTransparency = 0 --transparency of your hands
 local handsOffset = CFrame.fromEulerAnglesXYZ(8, 0, 0) * CFrame.new(0, 0.7, 0.15)
 local headScale = 1.5
