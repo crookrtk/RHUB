@@ -108,9 +108,9 @@ local StarterGui = game:GetService("StarterGui")
 local HeadAccessories = {};
 local UsedAccessories = {};
 
-local Pointer = true;
-local Point1 = true;
-local Point2 = true;
+local Pointer = false;
+local Point1 = false;
+local Point2 = false;
 
 local VirtualRig = game:GetObjects("rbxassetid://4468539481")[1]
 local VirtualBody = game:GetObjects("rbxassetid://4464983829")[1]
