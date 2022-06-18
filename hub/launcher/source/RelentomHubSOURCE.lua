@@ -1,6 +1,6 @@
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/crookrtk/RHUB/main/discordlib.txt")()
 
-local win = DiscordLib:Window("Relentom Hub v1.0.0rd")
+local win = DiscordLib:Window("Relentom Hub v1.0.1rd")
 
 local serv = win:Server("Scripts", "")
 
@@ -9,7 +9,23 @@ local btns = serv:Channel("vr-section")
 btns:Button("RelentomVR v1", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/RelentomVRv1Sourcee.lua"))()
 print(bool)   
-DiscordLib:Notification("Notification", "Launched, credit to whoogives, not made by me!", "Okay!")
+DiscordLib:Notification("Notification", "Launched, credit to Whoogives", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Button("MW VR", function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/MW_VR.lua"))()
+print(bool)   
+DiscordLib:Notification("Notification", "Launched, credit to MyWorld#4430", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Button("MW VR DA HOOD", function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/MW_VR%20(2).txt"))()
+print(bool)   
+DiscordLib:Notification("Notification", "Launched, credit to MyWorld#4430 , patches made to work in Da Hood", "Okay!")
 end)
 
 btns:Seperator()
@@ -17,7 +33,7 @@ btns:Seperator()
 btns:Button("CLOVR Hat Version", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/clovr2020.lua"))()
 print(bool)
-DiscordLib:Notification("Notification", "Launched, credit to Abacaxl!", "Okay!")
+DiscordLib:Notification("Notification", "Launched, credit to Abacaxl", "Okay!")
 end)
 
 btns:Seperator()
