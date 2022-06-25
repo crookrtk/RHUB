@@ -81,17 +81,14 @@ options.righthandrotoffset = Vector3.new(0,0,0)
 options.lefthandrotoffset = Vector3.new(0,0,0)
 options.headrotoffset = Vector3.new(0,0,0)
 
-local ME = game:GetService("Players").LocalPlayer
-local HB = game:GetService("RunService").Heartbeat
-local vel = Vector3.new(25, 46, 12)
-for _, v in ipairs(ME.Character:GetDescendants()) do
-    if v:IsA("BasePart") and v.Name == "Handle" then
-        HB:Connect(function()
-            v.Velocity = vel
+for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+    if v:IsA("BasePart") and v.Parent.ClassName == "Accessory" or v:IsA("BasePart") and v.Name == "HumanoidRootPart" then
+        game:GetService("RunService").Heartbeat:connect(function()
+            v.Velocity = Vector3.new(-30,0,0)
         end)
     end
 end
-wait(3)
+wait(1)
 local plr = game:GetService("Players").LocalPlayer
 local char = plr.Character
 
