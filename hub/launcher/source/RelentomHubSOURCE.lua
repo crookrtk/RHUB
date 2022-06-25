@@ -1,12 +1,20 @@
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/crookrtk/RHUB/main/discordlib.txt")()
 
-local win = DiscordLib:Window("Relentom Hub v1.0.1rd")
+local win = DiscordLib:Window("Relentom Hub v1.0.2rd")
 
 local serv = win:Server("Scripts", "")
 
 local btns = serv:Channel("vr-section")
 
-btns:Button("RelentomVR v1", function(bool)
+btns:Button("RelentomVR V1", function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/Relentom%20V1%20Medihood.lua"))()
+print(bool)   
+DiscordLib:Notification("Notification", "Launched!", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Button("RePower VR", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/RelentomVRv1Sourcee.lua"))()
 print(bool)   
 DiscordLib:Notification("Notification", "Launched, credit to Whoogives", "Okay!")
