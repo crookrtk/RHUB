@@ -17,7 +17,7 @@ btns:Seperator()
 btns:Button("RePower VR", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/RelentomVRv1Sourcee.lua"))()
 print(bool)   
-DiscordLib:Notification("Notification", "Launched, credit to Whoogives", "Okay!")
+DiscordLib:Notification("Notification", "Launched, credit to Whoogives (Fixed by Anarky)", "Okay!")
 end)
 
 btns:Seperator()
