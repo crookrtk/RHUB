@@ -273,7 +273,7 @@ end
 
 local GunSound = Instance.new("Sound",moveWeapon)
 GunSound.SoundId = "rbxassetid://168143115"
-GunSound.Volume = 4
+GunSound.Volume = 3
 
 local raycastResult
 local raycastpos = moveHead.Position
