@@ -38,18 +38,11 @@ end)
 
 btns:Seperator()
 
+
 btns:Button("CLOVR Hat Version", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/clovr2020.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/hub/launcher/clovrhatver.lua"))()
 print(bool)
-DiscordLib:Notification("Notification", "Launched, credit to Abacaxl", "Okay!")
-end)
-
-btns:Seperator()
-
-btns:Button("CLOVR Hat Reanim", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/clovrhatsreanim.lua"))()
-print(bool)
-DiscordLib:Notification("Notification", "Launched, execute CLOVR Hat Version again!", "Okay!")
+DiscordLib:Notification("Notification", "Launched, be sure you are wearing the right hats!", "Okay!")
 end)
 
 local tgls = serv:Channel("coming-soon")
