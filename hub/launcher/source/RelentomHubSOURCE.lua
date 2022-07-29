@@ -1,6 +1,6 @@
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/crookrtk/RHUB/main/discordlib.txt")()
 
-local win = DiscordLib:Window("Relentom Hub v1.0.2rd")
+local win = DiscordLib:Window("Relentom Hub v1.0.5rd")
 
 local serv = win:Server("Scripts", "")
 
