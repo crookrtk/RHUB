@@ -76,7 +76,7 @@ drops:Button("Add option", function()
 drop:Add("Option")
 end)
 
-local clrs = serv:Channel("hand-trail")
+local clrs = serv:Channel("coming-soon")
 
 clrs:Colorpicker("ESP Color", Color3.fromRGB(255,1,1), function(t)
 print(t)
@@ -109,4 +109,4 @@ end)
 
 
 
-win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
+win:Server("Coming Soon", "http://www.roblox.com/asset/?id=6031075938")
