@@ -2,16 +2,16 @@
 _G.gunAutoEquip = false
 _G.swordAutoEquip = false
 _G.changeSomeStuff = false
-_G.knifeMode = true
+_G.knifeMode = false
 
 --[--Universal--]--
 _G.leftHand = false
-_G.flinging = true
+_G.flinging = false
 _G.toolHolding = true
 _G.bodyTransparency = 0
 _G.hatTransparency = 0
 --Hat CLOVR
-_G.hideCharacter = true
+_G.hideCharacter = false
 _G.hideCharacterPosition = {50000000, 0, 50000000}
 _G.hatCLOVR = true
 --Loadout
