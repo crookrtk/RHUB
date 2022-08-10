@@ -38,11 +38,18 @@ end)
 
 btns:Seperator()
 
-
 btns:Button("CLOVR Hat Version", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/hub/launcher/clovrhatver.lua"))()
 print(bool)
 DiscordLib:Notification("Notification", "Launched, be sure you are wearing the right hats!", "Okay!")
+end)
+
+btns:Seperator()
+
+btns:Button("AnarksVR", function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/anarksVR/main/forloadstring.lua"))()
+print(bool)
+DiscordLib:Notification("Notification", "Launched, FULL Credit to saucekid, as this is just my fixed version of the script!", "Okay!")
 end)
 
 local tgls = serv:Channel("coming-soon")
