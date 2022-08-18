@@ -10,7 +10,7 @@ local shootbutton = Enum.KeyCode.ButtonR2
 
 --[[
     VR SCRIPP 
-    
+    -- fixed by Anarky or whatever
     MAED BY MyWorld#4430 
     discord.gg/pYVHtSJmEY
     
