@@ -1,6 +1,6 @@
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/crookrtk/RHUB/main/discordlib.txt")()
 
-local win = DiscordLib:Window("Relentom Hub v1.0.5rd")
+local win = DiscordLib:Window("Relentom Hub v1.0b")
 
 local serv = win:Server("Scripts", "")
 
@@ -10,14 +10,6 @@ btns:Button("RelentomVR V1", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/Relentom%20V1%20Medihood.lua"))()
 print(bool)   
 DiscordLib:Notification("Notification", "Launched!", "Okay!")
-end)
-
-btns:Seperator()
-
-btns:Button("RePower VR", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/RelentomVRv1Sourcee.lua"))()
-print(bool)   
-DiscordLib:Notification("Notification", "Launched, credit to Whoogives (Fixed by Anarky)", "Okay!")
 end)
 
 btns:Seperator()
@@ -38,7 +30,7 @@ end)
 
 btns:Seperator()
 
-btns:Button("CLOVR Hat Version", function(bool)
+btns:Button("CLOVR Hat Version (Broken?)", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/crookrtk/RHUB/main/hub/launcher/clovrhatver.lua"))()
 print(bool)
 DiscordLib:Notification("Notification", "Launched, be sure you are wearing the right hats!", "Okay!")
